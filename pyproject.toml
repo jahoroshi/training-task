@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "pythonproject"
+version = "0.1.0"
+description = ""
+authors = ["jahoroshi4y <jahoroshi4y@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.0"
+python-dotenv = "^1.0.1"
+sqlalchemy = "^2.0.35"
+passlib = "^1.7.4"
+python-jose = "^3.3.0"
+uvicorn = "^0.31.1"
+aiosqlite = "^0.20.0"
+pydantic = {extras = ["email"], version = "^2.9.2"}
+python-multipart = "^0.0.12"
+pytest-asyncio = "^0.24.0"
+httpx = "^0.27.2"
+faker = "^30.3.0"
+celery = "^5.4.0"
+urllib3 = "^2.2.3"
+flower = "^2.0.1"
+redis = "^5.1.1"
+psycopg2 = "^2.9.9"
+asyncpg = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
